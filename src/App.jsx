@@ -10,6 +10,8 @@ import Layout from "./components/Layout";
 function App() {
   return (
     <Routes>
+      <Route path="/" element={<Dashboard />} />
+
       <Route path="/login" element={<Login />} />
       <Route element={<Layout />}>
         <Route
